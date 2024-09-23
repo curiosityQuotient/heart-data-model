@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/tao210/mlops_project/mlruns/493198603292191274/90a28e8d530d4a93abb89ec2eae9cdcb/artifacts
+end_time: 1726952714428
+entry_point_name: ''
+experiment_id: '493198603292191274'
+lifecycle_stage: active
+run_id: 90a28e8d530d4a93abb89ec2eae9cdcb
+run_name: big-doe-250
+run_uuid: 90a28e8d530d4a93abb89ec2eae9cdcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1726952697363
+status: 3
+tags: []
+user_id: tao210

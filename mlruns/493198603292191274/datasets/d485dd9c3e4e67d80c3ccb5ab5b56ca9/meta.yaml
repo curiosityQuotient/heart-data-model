@@ -1,0 +1,16 @@
+digest: 5129a4dd
+name: dataset
+profile: '{"num_rows": 178, "num_elements": 2314}'
+schema: '{"mlflow_colspec": [{"type": "long", "name": "age", "required": true}, {"type":
+  "long", "name": "sex", "required": true}, {"type": "long", "name": "chest pain type",
+  "required": true}, {"type": "long", "name": "resting blood pressure", "required":
+  true}, {"type": "long", "name": "chol", "required": true}, {"type": "long", "name":
+  "fasting blood sugar", "required": true}, {"type": "long", "name": "resting ECG",
+  "required": true}, {"type": "double", "name": "max heart rate", "required": true},
+  {"type": "long", "name": "exang", "required": true}, {"type": "double", "name":
+  "oldpeak", "required": true}, {"type": "long", "name": "slope", "required": true},
+  {"type": "long", "name": "number vessels flourosopy", "required": true}, {"type":
+  "long", "name": "thal", "required": true}]}'
+source: '{"tags": {"mlflow.user": "tao210", "mlflow.source.name": "C:\\Users\\tao210\\mlops_project\\heart\\train.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
