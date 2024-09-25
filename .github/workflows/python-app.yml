@@ -35,12 +35,12 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: pytest ./heart/test/tests.py
-      - name: Push generated webpage to another repository
-        uses: nkoppel/push-files-to-another-repository@v1.1.3
+      - name: Copy latest model file
+        uses: RomanosTrechlis/actions-copy-files@master
         env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: "/latest_model/model.pkl"
+          source-files: "./latest_model/model.pkl"
           destination-username: "CuriosityQuotient"
           destination-repository: "heart-data-classifier"
-          destination-directory: "mlruns/latest_model"
+          destination-directory: "./mlruns/latest_model"
