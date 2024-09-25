@@ -40,8 +40,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: "./latest_model/model.pkl"
+          source-files: "latest_model/model.pkl"
           destination-username: "CuriosityQuotient"
           destination-repository: "heart-data-classifier"
           destination-branch: "main"
-          destination-directory: "./mlruns/latest_model"
+          destination-directory: "mlruns/latest_model"
